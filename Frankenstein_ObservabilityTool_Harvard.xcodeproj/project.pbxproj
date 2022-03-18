@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6BDFFE27E52C0D00B627DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BDFFD27E52C0D00B627DE /* AppDelegate.swift */; };
+		8A6BE00027E52C0D00B627DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BDFFF27E52C0D00B627DE /* SceneDelegate.swift */; };
+		8A6BE00227E52C0D00B627DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BE00127E52C0D00B627DE /* ViewController.swift */; };
+		8A6BE00527E52C0D00B627DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6BE00327E52C0D00B627DE /* Main.storyboard */; };
+		8A6BE00727E52C0E00B627DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6BE00627E52C0E00B627DE /* Assets.xcassets */; };
+		8A6BE00A27E52C0E00B627DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6BE00827E52C0E00B627DE /* LaunchScreen.storyboard */; };
+		8A6BE01527E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BE01427E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.swift */; };
+		8A6BE02027E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BE01F27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6BE01127E52C0F00B627DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6BDFF227E52C0D00B627DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6BDFF927E52C0D00B627DE;
+			remoteInfo = Frankenstein_ObservabilityTool_Harvard;
+		};
+		8A6BE01C27E52C0F00B627DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6BDFF227E52C0D00B627DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6BDFF927E52C0D00B627DE;
+			remoteInfo = Frankenstein_ObservabilityTool_Harvard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A6BDFFA27E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frankenstein_ObservabilityTool_Harvard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6BDFFD27E52C0D00B627DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A6BDFFF27E52C0D00B627DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A6BE00127E52C0D00B627DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A6BE00427E52C0D00B627DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A6BE00627E52C0E00B627DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6BE00927E52C0E00B627DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6BE00B27E52C0E00B627DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6BE01027E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Frankenstein_ObservabilityTool_HarvardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6BE01427E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frankenstein_ObservabilityTool_HarvardTests.swift; sourceTree = "<group>"; };
+		8A6BE01627E52C0F00B627DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6BE01B27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Frankenstein_ObservabilityTool_HarvardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6BE01F27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frankenstein_ObservabilityTool_HarvardUITests.swift; sourceTree = "<group>"; };
+		8A6BE02127E52C0F00B627DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6BDFF727E52C0D00B627DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6BE00D27E52C0F00B627DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6BE01827E52C0F00B627DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A6BDFF127E52C0D00B627DE = {
+			isa = PBXGroup;
+			children = (
+				8A6BDFFC27E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard */,
+				8A6BE01327E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests */,
+				8A6BE01E27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests */,
+				8A6BDFFB27E52C0D00B627DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6BDFFB27E52C0D00B627DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6BDFFA27E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard.app */,
+				8A6BE01027E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.xctest */,
+				8A6BE01B27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6BDFFC27E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard */ = {
+			isa = PBXGroup;
+			children = (
+				8A6BDFFD27E52C0D00B627DE /* AppDelegate.swift */,
+				8A6BDFFF27E52C0D00B627DE /* SceneDelegate.swift */,
+				8A6BE00127E52C0D00B627DE /* ViewController.swift */,
+				8A6BE00327E52C0D00B627DE /* Main.storyboard */,
+				8A6BE00627E52C0E00B627DE /* Assets.xcassets */,
+				8A6BE00827E52C0E00B627DE /* LaunchScreen.storyboard */,
+				8A6BE00B27E52C0E00B627DE /* Info.plist */,
+			);
+			path = Frankenstein_ObservabilityTool_Harvard;
+			sourceTree = "<group>";
+		};
+		8A6BE01327E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6BE01427E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.swift */,
+				8A6BE01627E52C0F00B627DE /* Info.plist */,
+			);
+			path = Frankenstein_ObservabilityTool_HarvardTests;
+			sourceTree = "<group>";
+		};
+		8A6BE01E27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6BE01F27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.swift */,
+				8A6BE02127E52C0F00B627DE /* Info.plist */,
+			);
+			path = Frankenstein_ObservabilityTool_HarvardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6BDFF927E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6BE02427E52C0F00B627DE /* Build configuration list for PBXNativeTarget "Frankenstein_ObservabilityTool_Harvard" */;
+			buildPhases = (
+				8A6BDFF627E52C0D00B627DE /* Sources */,
+				8A6BDFF727E52C0D00B627DE /* Frameworks */,
+				8A6BDFF827E52C0D00B627DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frankenstein_ObservabilityTool_Harvard;
+			productName = Frankenstein_ObservabilityTool_Harvard;
+			productReference = 8A6BDFFA27E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6BE00F27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6BE02727E52C0F00B627DE /* Build configuration list for PBXNativeTarget "Frankenstein_ObservabilityTool_HarvardTests" */;
+			buildPhases = (
+				8A6BE00C27E52C0F00B627DE /* Sources */,
+				8A6BE00D27E52C0F00B627DE /* Frameworks */,
+				8A6BE00E27E52C0F00B627DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6BE01227E52C0F00B627DE /* PBXTargetDependency */,
+			);
+			name = Frankenstein_ObservabilityTool_HarvardTests;
+			productName = Frankenstein_ObservabilityTool_HarvardTests;
+			productReference = 8A6BE01027E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A6BE01A27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6BE02A27E52C0F00B627DE /* Build configuration list for PBXNativeTarget "Frankenstein_ObservabilityTool_HarvardUITests" */;
+			buildPhases = (
+				8A6BE01727E52C0F00B627DE /* Sources */,
+				8A6BE01827E52C0F00B627DE /* Frameworks */,
+				8A6BE01927E52C0F00B627DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6BE01D27E52C0F00B627DE /* PBXTargetDependency */,
+			);
+			name = Frankenstein_ObservabilityTool_HarvardUITests;
+			productName = Frankenstein_ObservabilityTool_HarvardUITests;
+			productReference = 8A6BE01B27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6BDFF227E52C0D00B627DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sid K. Roy";
+				TargetAttributes = {
+					8A6BDFF927E52C0D00B627DE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8A6BE00F27E52C0F00B627DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8A6BDFF927E52C0D00B627DE;
+					};
+					8A6BE01A27E52C0F00B627DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8A6BDFF927E52C0D00B627DE;
+					};
+				};
+			};
+			buildConfigurationList = 8A6BDFF527E52C0D00B627DE /* Build configuration list for PBXProject "Frankenstein_ObservabilityTool_Harvard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A6BDFF127E52C0D00B627DE;
+			productRefGroup = 8A6BDFFB27E52C0D00B627DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6BDFF927E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard */,
+				8A6BE00F27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests */,
+				8A6BE01A27E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6BDFF827E52C0D00B627DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6BE00A27E52C0E00B627DE /* LaunchScreen.storyboard in Resources */,
+				8A6BE00727E52C0E00B627DE /* Assets.xcassets in Resources */,
+				8A6BE00527E52C0D00B627DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6BE00E27E52C0F00B627DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6BE01927E52C0F00B627DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6BDFF627E52C0D00B627DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6BE00227E52C0D00B627DE /* ViewController.swift in Sources */,
+				8A6BDFFE27E52C0D00B627DE /* AppDelegate.swift in Sources */,
+				8A6BE00027E52C0D00B627DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6BE00C27E52C0F00B627DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6BE01527E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6BE01727E52C0F00B627DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6BE02027E52C0F00B627DE /* Frankenstein_ObservabilityTool_HarvardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6BE01227E52C0F00B627DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6BDFF927E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard */;
+			targetProxy = 8A6BE01127E52C0F00B627DE /* PBXContainerItemProxy */;
+		};
+		8A6BE01D27E52C0F00B627DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6BDFF927E52C0D00B627DE /* Frankenstein_ObservabilityTool_Harvard */;
+			targetProxy = 8A6BE01C27E52C0F00B627DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6BE00327E52C0D00B627DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6BE00427E52C0D00B627DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A6BE00827E52C0E00B627DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6BE00927E52C0E00B627DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6BE02227E52C0F00B627DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A6BE02327E52C0F00B627DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6BE02527E52C0F00B627DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frankenstein_ObservabilityTool_Harvard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sid-K.-Roy---Word-Services.Frankenstein-ObservabilityTool-Harvard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A6BE02627E52C0F00B627DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frankenstein_ObservabilityTool_Harvard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sid-K.-Roy---Word-Services.Frankenstein-ObservabilityTool-Harvard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A6BE02827E52C0F00B627DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frankenstein_ObservabilityTool_HarvardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sid-K.-Roy---Word-Services.Frankenstein-ObservabilityTool-HarvardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frankenstein_ObservabilityTool_Harvard.app/Frankenstein_ObservabilityTool_Harvard";
+			};
+			name = Debug;
+		};
+		8A6BE02927E52C0F00B627DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frankenstein_ObservabilityTool_HarvardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sid-K.-Roy---Word-Services.Frankenstein-ObservabilityTool-HarvardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frankenstein_ObservabilityTool_Harvard.app/Frankenstein_ObservabilityTool_Harvard";
+			};
+			name = Release;
+		};
+		8A6BE02B27E52C0F00B627DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frankenstein_ObservabilityTool_HarvardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sid-K.-Roy---Word-Services.Frankenstein-ObservabilityTool-HarvardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frankenstein_ObservabilityTool_Harvard;
+			};
+			name = Debug;
+		};
+		8A6BE02C27E52C0F00B627DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frankenstein_ObservabilityTool_HarvardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sid-K.-Roy---Word-Services.Frankenstein-ObservabilityTool-HarvardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frankenstein_ObservabilityTool_Harvard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6BDFF527E52C0D00B627DE /* Build configuration list for PBXProject "Frankenstein_ObservabilityTool_Harvard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6BE02227E52C0F00B627DE /* Debug */,
+				8A6BE02327E52C0F00B627DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6BE02427E52C0F00B627DE /* Build configuration list for PBXNativeTarget "Frankenstein_ObservabilityTool_Harvard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6BE02527E52C0F00B627DE /* Debug */,
+				8A6BE02627E52C0F00B627DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6BE02727E52C0F00B627DE /* Build configuration list for PBXNativeTarget "Frankenstein_ObservabilityTool_HarvardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6BE02827E52C0F00B627DE /* Debug */,
+				8A6BE02927E52C0F00B627DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6BE02A27E52C0F00B627DE /* Build configuration list for PBXNativeTarget "Frankenstein_ObservabilityTool_HarvardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6BE02B27E52C0F00B627DE /* Debug */,
+				8A6BE02C27E52C0F00B627DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A6BDFF227E52C0D00B627DE /* Project object */;
+}
